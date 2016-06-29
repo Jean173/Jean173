@@ -1,0 +1,30 @@
+服务器配置的整个流程的整理
+
+nginx环境的配置
+1、下载nginx for windows版本
+2、配置过程在这http://jingyan.baidu.com/article/f3e34a12a9c1c3f5eb6535d4.html，我们服务器的端口是880，即listen 880；
+3、目录的配置和下面Git本地仓库的目录名一致，否则租用的IP是打不开网页的。
+
+GitHub的使用
+1、下载Git windows版本
+2、安装使用步骤在这http://jingyan.baidu.com/article/f7ff0bfc7181492e27bb1360.html
+3、可以直接新建个文件夹命好名（这就是本地仓库了），右击Git bash，运行程序，然后下载的文件直接下载到了这个目录。
+4、创建的新文件也放在这个目录或者子目录下，进行添加与上传。
+5、几个命令：
+a.复制地址：git clone
+b.添加文件：git add readme.txt
+c.提交文件：git commit -m"对文件的修改说明"
+d.提交本地仓库到GitHub账户：git push -u origin master
+
+SSH的使用
+1，下载SSH
+2、这里就要用到在修真院租用的IP、账号了。在这儿租http://bbs.ptteng.com/forum.php?mod=viewthread&tid=7362&extra=page%3D1
+3、使用方法在这儿http://jingyan.baidu.com/article/066074d6600d43c3c21cb0d2.html
+4、要把自己写的网页文件（html、css之类的）上传到这里。
+
+访问IP的格式
+http://119.10.57.67:880/ptt05/nineboxes_1639.html
+http://租用的IP：端口（880）/帐户名/文件名.后缀
+
+
+
